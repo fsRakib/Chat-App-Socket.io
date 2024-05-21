@@ -43,7 +43,7 @@ async function checkPassword(req, res) {
         console.log("Response Headers:", res.getHeaders()); // Debugging: Log response headers
 
         return res.status(200).json({
-            message: "Login successful",
+            message: "Login Successful",
             token: token,
             success: true
         });

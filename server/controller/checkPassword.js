@@ -35,8 +35,8 @@ async function checkPassword(req, res) {
             sameSite: 'Lax'
         };
 
-        console.log("Generated Token:", token); // Debugging: Log the token
-        console.log("Cookie Options:", cookieOptions); // Debugging: Log cookie options
+        console.log("Generated Token:", token); 
+        console.log("Cookie Options:", cookieOptions); 
 
         res.cookie('token', token, cookieOptions);
 
